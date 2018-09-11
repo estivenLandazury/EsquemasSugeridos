@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Fontaweasome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="EsquemasSugeridos.css">
+    <!-- Iconos -->
+
+    <!-- Title -->
+    <title>V-Track</title>
+</head>
+
+<body>
+    <!-- Container -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container px-3">
+
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-trademark"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"> Información
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <a class="dropdown-item" href="#">Esquemas Sugeridos</a>
+                                <a class="dropdown-item" href="#">Carne De Vacuna</a>
+
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
+
+                <form class="form-inline my-2 my-lg-0">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Cerrar sesión
+                                <i class="fas fa-user"></i>
+
+
+                            </a>
+                        </li>
+
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid my-1">
+
+        <h1> Esquemas Sugeridos </h1>
+        <div class="accordion" id="accordionExample" my-9>
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h4> Esquema Ministerio de salud</h4>
+
+                        </button>
+
+
+                    </h5>
+                    <button type="button" class="btn btn-success">Añadir al carné
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p class="text-center" style="font-size:22px">
+                            <strong>Esquema para ninños y niñas menores de 5 años.</strong>
+                        </p>
+
+                        <table class="table table-hover ">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Dosis o Refuerzo</th>
+                                    <th scope="col">Dosis#1</th>
+                                    <th scope="col">Dosis#2</th>
+                                    <th scope="col">Dosis#3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Pentavelente">
+                                            Pentavalente
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 6 Semana</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tetano">
+                                            Tetano
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 mes</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 meses</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 6 meses</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Influenza">
+                                            Influenza
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 mes</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 meses</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <h4> Esquema SURA </h4>
+                        </button>
+                    </h5>
+                    <button type="button" class="btn btn-success">Añadir al carné
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p class="text-center" style="font-size:22px">
+                            <strong>Esquema sugerido para niñas y mujeres de 8 a 25 años.</strong>
+                        </p>
+                        <table class="table table-hover ">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">Dosis o Refuerzo</th>
+                                    <th scope="col">Dosis#1</th>
+                                    <th scope="col">Dosis#2</th>
+                                    <th scope="col">Dosis#3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#HepatitisA">
+                                            Hepatitis A
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 semana</td>
+
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#HepatitisB">
+                                            Hepatitis B
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 mes</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 meses</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 6 meses</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tetano">
+                                            Tetano
+                                            <i class="fas fa-plus"></i>
+                                    </th>
+
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 mes</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 meses</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 6 meses</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            <h4> Esquema Ministerio de Salud</h4>
+                        </button>
+                    </h5>
+
+                    <button type="button" class="btn btn-success">Añadir al carné
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+
+                        <p class="text-center" style="font-size:22px">
+                            <strong>Esquema sugerido para mujeres entre 15 a 30 años.</strong>
+                        </p>
+                        <table class="table table-hover ">
+                            <thead class="thead-dark">
+
+                                <tr>
+                                    <th scope="col">Dosis o Refuerzo</th>
+                                    <th scope="col">Dosis #1</th>
+                                    <th scope="col">Dosis #2</th>
+                                    <th scope="col">Dosis #3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Neumococo">
+                                            Neumococo
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 mes</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 meses</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 6 meses</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Pentavelente">
+                                            Pentavalente
+                                            <i class="fas fa-plus"></i>
+
+                                        </button>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 6 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"> </i>
+                                        <br> 11 semana</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#HepatitisA">
+                                            Hepatitis A
+                                            <i class="fas fa-plus"></i>
+                                        </button>
+                                    </th>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 1 semana</td>
+                                    <td>
+                                        <i class="fas fa-circle"></i>
+                                        <br> 3 semana</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Modals -->
+
+    <!-- Modal Pentavalente-->
+    <div class="modal fade" id="Pentavelente" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <Strong>Pentavalente</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 3
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br>
+
+                    <span align="justify">La vacuna pentavalente previene contra tosferina, difteria, tétanos, poliomielitis y enfermedades invasivas
+                        por Haemophilus influenzae tipo b (Hib). Es una vacuna que contiene 1) toxoide pertúsico, 2) toxoide
+                        tetánico, 3) toxoide diftérico (DPaT) adsorbidos y combinados con 4) vacuna antipoliomielítica inactivada
+                        (VIP) con virus de la polio tipos 1, 2 y 3 y 5) vacuna conjugada de Haemophilus influenzae tipo b
+                        (conjugado a proteína tetánica). </span>
+
+
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modal Pentavalente-->
+
+    <!-- Modal Neumococo-->
+    <div class="modal fade" id="Neumococo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <Strong>Neumococo</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 3
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br> El neumococo es un tipo de bacteria estreptocócica. La bacteria se disemina a través del contacto con
+                    personas que están infectadas o con personas que no están enfermas pero que portan la bacteria en la
+                    parte posterior de su nariz
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Neumococo-->
+
+    <!--  Modal Hepatitis A-->
+    <div class="modal fade" id="HepatitisA" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <Strong>Hepatitis A</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 2
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br>Es la inflamación (irritación e hinchazón) del hígado por el virus de la hepatitis A.
+                    <br> El virus de la hepatitis A se encuentra sobre todo en las heces y la sangre de una persona infectada.
+                    El virus esta presente aproximadamente de 15 a 45 días antes de que presenten los síntomas y durante
+                    la primera semana de la enfermedad
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Hepatitis A-->
+
+
+
+    <!--  Modal Hepatitis B-->
+    <div class="modal fade" id="HepatitisB" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <Strong>Hepatitis B</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 3
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br> Es la irritación e hinchazón (inflamación) del hígado debido a infección con el virus de la hepatitis
+                    B (VHB). Otros tipos de hepatitis viral incluyen hepatitis A, hepatitis C y hepatitis D. La hepatitis
+                    B es causada por el VHB. Usted puede contraer hepatitis B a través del contacto con sangre o fluidos
+                    corporales (semen, fluidos vaginales y la saliva) de una persona que tenga el virus.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Hepatitis B-->
+
+
+    <!--  Modal Tetano-->
+    <div class="modal fade" id="tetano" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <Strong>Tetano</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 3
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br> Es una infección del sistema nervioso con un tipo de bacteria que es potencialmente mortal llamada Clostridium
+                    tetani (C tetani).Las esporas de la bacteria C tetani se encuentran en el suelo, en las heces y en la
+                    boca (tubo gastrointestinal) de animales. En su forma de espora, la C tetani puede permanecer inactiva
+                    en el suelo. Sin embargo, puede seguir siendo infecciosa por más de 40 años.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Tetano-->
+
+
+    <!--  Modal Influenza-->
+    <div class="modal fade" id="Influenza" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Detalles</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <Strong>Influenza</Strong>
+                    <br>
+                    <Strong>Cantidad De Dosis </Strong>: 2
+                    <br>
+                    <Strong>Cantidad de Refuerzos </Strong>: 0
+                    <br> La influenza es una enfermedad respiratoria contagiosa provocada por los virus de la influenza que infectan
+                    la nariz, la garganta y en algunos casos los pulmones. Este virus puede causar una enfermedad leve o
+                    grave y en ocasiones puede llevar a la muerte. La mejor manera de prevenir la influenza es vacunándose
+                    todos los años
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Influenza-->
+
+
+
+
+    <!-- Footer -->
+    <div id="footer">
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
