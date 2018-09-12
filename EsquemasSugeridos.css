@@ -25,3 +25,11 @@
     color: #151c23 !important;
     background-color: transparent;
 }
+
+html {
+    font-size: 1rem;
+  }
+
+  i.fas.fa-circle {
+    margin-left: 11%;
+}
