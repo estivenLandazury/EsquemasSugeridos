@@ -33,3 +33,46 @@ html {
   i.fas.fa-circle {
     margin-left: 11%;
 }
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight:bold;
+        font-size:1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align:center;
+    }
+    tbody td:before {
+        content: attr(data-th-thead);
+        display: block;
+        text-align:center;
+    }
+}
+
+
+@media screen and (max-width: 429px) {
+
+    h4{
+        font-size: 79%;
+    }
+
+   
+}
