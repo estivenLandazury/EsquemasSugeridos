@@ -163,6 +163,16 @@ p {
 .btn-primary{
     width: 96% !important;
 }
+
+
+.container-fluid {
+    margin-top: 60px !important;
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
   
 }
 
